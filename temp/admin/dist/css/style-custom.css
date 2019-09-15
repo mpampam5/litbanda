@@ -1,0 +1,71 @@
+#berita{
+  padding: 10px;
+}
+
+#berita .url{
+  font-size: 12px!important;
+  font-style: italic!important;
+}
+
+#btn-group > a{
+  font-size: 11px!important;
+
+}
+
+.fa-twitter{
+  color : #3c8dbc;
+}
+
+.fa-facebook{
+  color: #4267b2;
+}
+
+.pages{
+  padding-left: 20px;
+  padding-right: 30px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400px;
+
+}
+
+.page-title{
+   position: relative;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 10px 10px 10px 10px;
+   padding: 2px 10px 3px 10px;
+   font-size:10vw;
+   top:320px;
+   left:10px;
+}
+
+.page-title h3{
+  font-family:Impact;
+  color: white;
+  width: auto;
+}
+
+.page-desc {
+  padding: 30px;
+  text-align: justify;
+}
+
+
+
+
+/* tinymce-text-editor */
+div.mce-fullscreen {z-index: 1050;top: 50px!important;bottom: 50px!important;height:100%!important}
+.mce-tinymce, .mce-edit-area.mce-container, .mce-container-body.mce-stack-layout
+{
+    height: 100% !important;
+}
+
+.mce-edit-area.mce-container {
+    height: calc(100% - 88px) !important;
+    overflow-y: scroll;
+}
+
+/* end tinymce-text-editor */

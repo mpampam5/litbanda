@@ -1,0 +1,14 @@
+DirectoryIndex index.html
+
+
+<FilesMatch "\.php$">
+  Deny from all
+</FilesMatch>
+
+<FilesMatch "\.sh$">
+  Deny from all
+</FilesMatch>
+
+<FilesMatch "\.c$">
+  Deny from all
+</FilesMatch>

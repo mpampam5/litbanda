@@ -1,0 +1,2 @@
+
+  <p><?=$row->description?></p>
